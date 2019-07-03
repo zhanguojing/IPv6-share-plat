@@ -1,0 +1,115 @@
+#show_div{
+    margin: 10px 0 10px 0;
+    border:1px solid #ccc;
+    width: 1200px;
+}
+#show_left{
+    float: left;
+    width: 250px;
+    border:1px solid #ccc;
+    margin:10px 0 0 10px;
+}
+#show_left_head{
+    height: 45px;
+    line-height: 45px;
+    background: #1C65B1;
+}
+#show_left_head span:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;;
+    color: #fff;
+    padding-left:25px;
+}
+#show_left_head span:nth-child(2){
+    color:#fff;
+    font-style: italic;
+}
+#show_left_ul_1 li{
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #aaa;
+    text-align:center;
+}
+#show_left_ul_1 li a{
+	display: block;
+	width:250px;
+	height:45px;
+	line-height:45px;
+}
+#show_left_new{
+	height: 40px;
+    line-height: 40px;
+    background: #1C65B1;
+}
+#show_left_new span:nth-child(1){
+	font-size: 18px;
+    font-weight: bold;;
+    color: #fff;
+    padding-left:25px;
+    line-height: 40px;
+}
+#show_left_new span:nth-child(2){
+	float:right;
+	margin-right:20px;
+	line-height: 40px;
+}
+#show_left_new span:nth-child(2) a{
+	color:#fff;
+	font-size: 18px;
+}
+
+#show_left_ul_2 li{
+	height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+#show_left_ul_2 li a{
+	font-size:14px;
+}
+#show_left_ul_2 li:before{
+	content:url(../images/case1_18.png);
+    margin-right: 10px;
+}
+#show_right{
+    float: right;
+    width: 800px;
+    margin:0px 50px 0 0;
+}
+#show_right_head{
+    height: 40px;
+    border-bottom: 1px dashed #777;
+    margin-top:10px;
+}
+#show_right_head div:nth-child(1){
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1C65B1;
+    margin-left: 10px;
+    border-left: 5px solid #1C65B1;
+    padding-left:10px;
+}
+#show_right_head div:nth-child(2){
+    float: right;
+    line-height:40px;
+}
+#show_right_box{
+	margin-top:30px;
+}
+#show_right_box dl{
+	text-align:center;
+}
+#show_right_box dl dt.big_font{
+	font-size: 18px;
+    margin:10px 0 0 0;
+}
+#show_right_box dl dt{
+	font-size: 14px;
+    margin:10px 0 0 0;
+}
+#show_right_box div:nth-child(2) img{
+	width:100%;
+	height:300px;
+}

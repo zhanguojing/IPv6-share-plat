@@ -1,0 +1,35 @@
+body{
+	text-align:center;
+}
+div{
+	width:100%;
+	margin:20px 0 0 0;
+}
+div h1{
+	font-size:20px;
+	color:#419641;
+}
+#select{
+	width:250px;
+	height:30px;
+	border-radius:15px;
+	outline:none;
+}
+input[type='date']{
+	width:250px;
+	height:30px;
+	outline:none;
+	border-radius:5px;
+}
+button{
+	width:300px;
+	height:40px;
+	background:#189AE2;
+	outline: none;
+	color:#fff;
+	font-size:20px;
+	border-radius:5px;
+}
+button:hover{
+	background:#1C65B1;
+}

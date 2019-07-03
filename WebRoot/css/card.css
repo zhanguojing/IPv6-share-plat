@@ -1,0 +1,16 @@
+.card {
+  width: 300px;
+  box-shadow: 04px8px0rgba(0, 0, 0, 0.2), 06px20px0rgba(0, 0, 0, 0.19);
+ text-align: center;
+ }​
+。he {
+ background-color: #4CAF50;
+ color: white;
+ padding: 10px;
+ font-size: 20px;
+ }​
+。conten {
+	height:100px;
+ padding: 10px;
+  font-size: 10px;
+ }

@@ -1,0 +1,118 @@
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea,
+	span, p {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	list-style: none;
+	font: 14px"宋体", "Microsoft Yahei", HELVETICA;
+}
+
+a {
+	cursor: pointer;
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#ff00ff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#top {
+	height: 30px;
+	background: url(../images/top_background.png) repeat;
+	position: relative;
+}
+
+#top_left {
+	float: left;
+	line-height: 30px;
+	margin-left: 20px;
+}
+#top_right {
+	float: right;
+	line-height: 30px;
+	margin-right: 20px;
+}
+
+#top div a {
+	margin-left: 10px;
+}
+
+#top div a:hover {
+	color: #ff00ff;
+	text-decoration: none;
+}
+#logo_div{
+	width:1200px;
+}
+#logo_div img{
+	float:left;
+}
+#logo_div ul{
+	float: left;
+    margin-top: 17px;
+    margin-left: 15px;
+    color: #888;
+}
+#logo_div ul li{
+	float: left;
+    margin-right: 8px;
+}
+#navigation{
+	width:1200px;
+	height:50px;
+	background:#189ae2;
+	clear:both;
+}
+#navigation ul li{
+	float:left;
+}
+#navigation ul li a{
+	display: block;
+	width:200px;
+	height:50px;
+	color:white;
+	font-size:20px;
+	line-height:50px;
+	text-align: center;
+}
+#navigation ul li a:hover{
+	background:#2d6da3;
+}
+#slider{
+	width:1200px;
+	height:300px;
+}
+.split{
+	background: #2d6da3;
+	height:15px;
+	width:1200px;
+	border-radius:10px;
+	clear:both;
+}
+
+.line { /* 按钮美化 */
+	width: 80px; /* 宽度 */
+	height: 30px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #0080ff; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 12px; /* 字体大小 */
+}
+.line:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}
